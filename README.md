@@ -1,6 +1,6 @@
 To compile both the producer and the consumer use:
-g++ Producer.cpp -pthread -lrt -o producer
-g++ Consumer.cpp -pthread -lrt -o consumer
+  g++ Producer.cpp -pthread -lrt -o producer
+  g++ Consumer.cpp -pthread -lrt -o consumer
 
 To run them use:
 ./producer & ./consumer &
