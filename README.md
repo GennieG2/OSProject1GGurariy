@@ -1,10 +1,11 @@
-# OSProject1GGurariy
 To compile both the producer and the consumer use:
 g++ Producer.cpp -pthread -lrt -o producer
 g++ Consumer.cpp -pthread -lrt -o consumer
 
 To run them use:
 ./producer & ./consumer &
+
+(Please see example photo to know what the output should look like)
 
 This is a producer-consumer problem in c++ using shared memory and semaphores. The producer writes data to a shared memory buffer and the consumer reads and processes the data.
 
